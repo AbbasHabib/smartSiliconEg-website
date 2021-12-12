@@ -1,0 +1,72 @@
+.logo-containter{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+
+}
+
+.outer-circle {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+  animation: rotate 1.5s linear infinite;
+}
+
+.outer-circle span {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+}
+
+span:nth-child(1) {
+  filter: blur(5px);
+}
+
+span:nth-child(2) {
+  filter: blur(10px);
+}
+
+span:nth-child(3) {
+  filter: blur(25px);
+}
+
+span:nth-child(4) {
+  filter: blur(150px);
+}
+
+.inner-circle {
+  border: #14ffe9;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  background: black;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  z-index: 9;
+  position: absolute;
+  text-align: center;
+}
+
+.inner-circle p{
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  position: relative;
+  top:30%;
+  left: 50%;
+  color: white;
+}
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
