@@ -1,4 +1,9 @@
 .logo-containter{
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
   position: fixed;
   top: 50%;
   left: 50%;
@@ -62,6 +67,8 @@ span:nth-child(4) {
   left: 50%;
   color: white;
 }
+
+
 @keyframes rotate {
   0% {
     filter: hue-rotate(0deg);
