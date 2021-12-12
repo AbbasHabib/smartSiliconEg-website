@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/smartSiliconEg-website/static/css/main.fbf69cfd.chunk.css",
-    "main.js": "/smartSiliconEg-website/static/js/main.cdca6c3e.chunk.js",
-    "main.js.map": "/smartSiliconEg-website/static/js/main.cdca6c3e.chunk.js.map",
+    "main.css": "/smartSiliconEg-website/static/css/main.fcee1a2e.chunk.css",
+    "main.js": "/smartSiliconEg-website/static/js/main.d61b7eee.chunk.js",
+    "main.js.map": "/smartSiliconEg-website/static/js/main.d61b7eee.chunk.js.map",
     "runtime-main.js": "/smartSiliconEg-website/static/js/runtime-main.31167730.js",
     "runtime-main.js.map": "/smartSiliconEg-website/static/js/runtime-main.31167730.js.map",
     "static/js/2.a44222d0.chunk.js": "/smartSiliconEg-website/static/js/2.a44222d0.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b735ee29.chunk.js": "/smartSiliconEg-website/static/js/3.b735ee29.chunk.js",
     "static/js/3.b735ee29.chunk.js.map": "/smartSiliconEg-website/static/js/3.b735ee29.chunk.js.map",
     "index.html": "/smartSiliconEg-website/index.html",
-    "static/css/main.fbf69cfd.chunk.css.map": "/smartSiliconEg-website/static/css/main.fbf69cfd.chunk.css.map",
+    "static/css/main.fcee1a2e.chunk.css.map": "/smartSiliconEg-website/static/css/main.fcee1a2e.chunk.css.map",
     "static/js/2.a44222d0.chunk.js.LICENSE.txt": "/smartSiliconEg-website/static/js/2.a44222d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.31167730.js",
     "static/js/2.a44222d0.chunk.js",
-    "static/css/main.fbf69cfd.chunk.css",
-    "static/js/main.cdca6c3e.chunk.js"
+    "static/css/main.fcee1a2e.chunk.css",
+    "static/js/main.d61b7eee.chunk.js"
   ]
 }
